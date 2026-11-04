@@ -2,7 +2,7 @@
 
 Generative graphics based on Victor Vasarely's *programmation* principles: recursive *unités plastiques* (fond + noyau), colour *gammes* and *nuances*, permutation and progression rules. A deterministic, seed-driven TypeScript core outputs a letter–number *programmation*, rendered to SVG.
 
-> **Status:** core, notation, validator, renderer and CLI implemented. See [SPEC.md](SPEC.md) for the full specification and [examples/](examples) for ready-made parameter files and their output.
+> **Status:** core, notation, validator, renderer and CLI implemented. See [PARAMS.md](PARAMS.md) for a guide to the parameters, [SPEC.md](SPEC.md) for the full specification, and [examples/](examples) for ready-made parameter files and their output.
 
 ## How it works
 

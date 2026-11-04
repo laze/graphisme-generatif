@@ -22,7 +22,7 @@
     "./schema": "./schema/params.schema.json",
     "./package.json": "./package.json"
   },
-  "files": ["dist", "schema", "SPEC.md"],
+  "files": ["dist", "schema", "SPEC.md", "PARAMS.md"],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
