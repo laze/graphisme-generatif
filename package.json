@@ -1,0 +1,47 @@
+{
+  "name": "graphisme-generatif",
+  "version": "1.0.0",
+  "description": "Deterministic, seed-driven generative graphics following the programmation method: coded unites plastiques rendered to SVG.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "graphisme-generatif": "./dist/cli/index.js"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./schema": "./schema/params.schema.json",
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "schema", "SPEC.md"],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "palette": "node scripts/run-ts.js scripts/build-palette.ts",
+    "schema": "node scripts/run-ts.js scripts/build-schema.ts",
+    "examples": "node scripts/run-ts.js scripts/build-examples.ts",
+    "bench": "node scripts/run-ts.js scripts/bench.ts",
+    "playground": "npm run build && node scripts/serve-playground.js"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "20.19.9",
+    "fast-check": "3.23.2",
+    "tsup": "8.3.5",
+    "typescript": "5.7.3",
+    "vitest": "2.1.8"
+  }
+}

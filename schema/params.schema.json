@@ -1,0 +1,666 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/graphisme-generatif/schema/params.schema.json",
+  "title": "Params",
+  "description": "Input parameters of the programmation stage (SPEC Section 8).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "seed",
+    "palette",
+    "champ",
+    "module",
+    "parcours",
+    "unite",
+    "etages"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "seed": {
+      "type": "string",
+      "minLength": 1
+    },
+    "palette": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "$ref": "#/$defs/palette"
+        }
+      ],
+      "description": "id of a bundled palette, or an inline palette"
+    },
+    "champ": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modulesX",
+        "modulesY"
+      ],
+      "properties": {
+        "modulesX": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        },
+        "modulesY": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        }
+      }
+    },
+    "module": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "colonnes",
+        "rangees"
+      ],
+      "properties": {
+        "colonnes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        },
+        "rangees": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        }
+      }
+    },
+    "echelle": {
+      "$ref": "#/$defs/echelle"
+    },
+    "parcours": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inter",
+        "intra"
+      ],
+      "properties": {
+        "inter": {
+          "$ref": "#/$defs/parcours"
+        },
+        "intra": {
+          "$ref": "#/$defs/parcours"
+        }
+      }
+    },
+    "unite": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "etages"
+      ],
+      "properties": {
+        "etages": {
+          "enum": [
+            1,
+            2,
+            3
+          ]
+        },
+        "joint": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.2,
+          "default": 0
+        }
+      }
+    },
+    "etages": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/etage"
+      },
+      "description": "length must equal unite.etages; index 0 is the fond and carries no forme"
+    },
+    "contraste": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "minNuance"
+      ],
+      "properties": {
+        "minNuance": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12,
+          "default": 3
+        }
+      }
+    },
+    "inversion": {
+      "$ref": "#/$defs/inversion"
+    }
+  },
+  "$defs": {
+    "variationNumerique": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "amplitude"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "constant",
+            "progression",
+            "permutation",
+            "aleatoire"
+          ]
+        },
+        "amplitude": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "onde": {
+          "enum": [
+            "rampe",
+            "triangle",
+            "sinus"
+          ],
+          "default": "rampe"
+        },
+        "periode": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 64,
+          "default": 1
+        },
+        "sens": {
+          "enum": [
+            1,
+            -1
+          ],
+          "default": 1
+        },
+        "ensemble": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "number"
+          },
+          "description": "ordered set of offsets added to the axis value"
+        },
+        "pas": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1024,
+          "default": 1
+        }
+      }
+    },
+    "variationGamme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "amplitude"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "constant",
+            "progression",
+            "permutation",
+            "aleatoire"
+          ]
+        },
+        "amplitude": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "onde": {
+          "enum": [
+            "rampe",
+            "triangle",
+            "sinus"
+          ],
+          "default": "rampe"
+        },
+        "periode": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 64,
+          "default": 1
+        },
+        "sens": {
+          "enum": [
+            1,
+            -1
+          ],
+          "default": 1
+        },
+        "ensemble": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]$"
+          },
+          "description": "ordered set of values"
+        },
+        "pas": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1024,
+          "default": 1
+        }
+      }
+    },
+    "variationType": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "amplitude"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "constant",
+            "progression",
+            "permutation",
+            "aleatoire"
+          ]
+        },
+        "amplitude": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "onde": {
+          "enum": [
+            "rampe",
+            "triangle",
+            "sinus"
+          ],
+          "default": "rampe"
+        },
+        "periode": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 64,
+          "default": 1
+        },
+        "sens": {
+          "enum": [
+            1,
+            -1
+          ],
+          "default": 1
+        },
+        "ensemble": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "c",
+              "o",
+              "l",
+              "t",
+              "r",
+              "e"
+            ]
+          },
+          "description": "ordered set of values"
+        },
+        "pas": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1024,
+          "default": 1
+        }
+      }
+    },
+    "axeNuance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 13
+        },
+        "inter": {
+          "$ref": "#/$defs/variationNumerique"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationNumerique"
+        }
+      }
+    },
+    "axeGrandeur": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30
+        },
+        "inter": {
+          "$ref": "#/$defs/variationNumerique"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationNumerique"
+        }
+      }
+    },
+    "axeRotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 360
+        },
+        "inter": {
+          "$ref": "#/$defs/variationNumerique"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationNumerique"
+        }
+      }
+    },
+    "axeAspect": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "type": "number",
+          "minimum": 0.2,
+          "maximum": 1
+        },
+        "inter": {
+          "$ref": "#/$defs/variationNumerique"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationNumerique"
+        }
+      }
+    },
+    "axeCisaillement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 0.5
+        },
+        "inter": {
+          "$ref": "#/$defs/variationNumerique"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationNumerique"
+        }
+      }
+    },
+    "axeGamme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "type": "string",
+          "pattern": "^[A-Z]$"
+        },
+        "inter": {
+          "$ref": "#/$defs/variationGamme"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationGamme"
+        }
+      }
+    },
+    "axeType": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base"
+      ],
+      "properties": {
+        "base": {
+          "enum": [
+            "c",
+            "o",
+            "l",
+            "t",
+            "r",
+            "e"
+          ]
+        },
+        "inter": {
+          "$ref": "#/$defs/variationType"
+        },
+        "intra": {
+          "$ref": "#/$defs/variationType"
+        }
+      }
+    },
+    "parcours": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "lignes",
+            "colonnes",
+            "boustrophedon",
+            "diagonale",
+            "rayonnement",
+            "spirale"
+          ]
+        },
+        "inverse": {
+          "type": "boolean",
+          "default": false
+        },
+        "symetrie": {
+          "enum": [
+            "aucune",
+            "horizontale",
+            "verticale",
+            "centrale"
+          ],
+          "default": "aucune"
+        }
+      }
+    },
+    "echelle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "part"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "constant",
+            "progression",
+            "aleatoire"
+          ]
+        },
+        "part": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "inversion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "amplitude",
+        "niveau"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "constant",
+            "progression",
+            "permutation",
+            "aleatoire"
+          ]
+        },
+        "amplitude": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "niveau": {
+          "enum": [
+            "inter",
+            "intra"
+          ]
+        }
+      }
+    },
+    "etage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "couleur"
+      ],
+      "properties": {
+        "couleur": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "gamme",
+            "nuance"
+          ],
+          "properties": {
+            "gamme": {
+              "$ref": "#/$defs/axeGamme"
+            },
+            "nuance": {
+              "$ref": "#/$defs/axeNuance"
+            }
+          }
+        },
+        "forme": {
+          "$ref": "#/$defs/forme"
+        }
+      }
+    },
+    "forme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "grandeur"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/axeType"
+        },
+        "grandeur": {
+          "$ref": "#/$defs/axeGrandeur"
+        },
+        "rotation": {
+          "$ref": "#/$defs/axeRotation"
+        },
+        "aspect": {
+          "$ref": "#/$defs/axeAspect"
+        },
+        "cisaillement": {
+          "$ref": "#/$defs/axeCisaillement"
+        }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label",
+        "gammes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string"
+        },
+        "gammes": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "pattern": "^[A-Z]$"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/gamme"
+          }
+        }
+      }
+    },
+    "gamme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "nuances"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "nuances": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 15,
+          "items": {
+            "type": "string",
+            "pattern": "^#[0-9a-f]{6}$"
+          }
+        },
+        "noir": {
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
+        }
+      }
+    }
+  }
+}

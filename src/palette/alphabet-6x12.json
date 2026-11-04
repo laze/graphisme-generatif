@@ -1,0 +1,125 @@
+{
+  "id": "alphabet-6x12",
+  "label": "Alphabet 6 x 12 — OKLCH approximations of named hues (not historical pigments)",
+  "gammes": {
+    "J": {
+      "label": "jaune de chrome",
+      "nuances": [
+        "#f6f2e2",
+        "#ebdeae",
+        "#dfca7a",
+        "#d2b643",
+        "#c2a200",
+        "#ac9000",
+        "#977e00",
+        "#836d00",
+        "#6f5c00",
+        "#5c4c00",
+        "#483c0d",
+        "#312e21"
+      ],
+      "noir": "#1b1603"
+    },
+    "V": {
+      "label": "vert émeraude",
+      "nuances": [
+        "#e8f6ee",
+        "#c0ead2",
+        "#99dcb8",
+        "#72cd9f",
+        "#4dbd88",
+        "#26ab74",
+        "#009863",
+        "#008455",
+        "#007048",
+        "#155b3d",
+        "#214633",
+        "#26312b"
+      ],
+      "noir": "#061b10"
+    },
+    "B": {
+      "label": "bleu outremer",
+      "nuances": [
+        "#ecf2ff",
+        "#cfdeff",
+        "#b2caff",
+        "#95b6ff",
+        "#78a1ff",
+        "#5b8bff",
+        "#4777ef",
+        "#3b66d3",
+        "#3356b1",
+        "#2d498b",
+        "#2a3c63",
+        "#282e3b"
+      ],
+      "noir": "#0e1626"
+    },
+    "M": {
+      "label": "violet de cobalt",
+      "nuances": [
+        "#f5effd",
+        "#e7d5ff",
+        "#d9bbfe",
+        "#caa2f8",
+        "#ba8bee",
+        "#a976df",
+        "#9763cb",
+        "#8354b2",
+        "#6f4896",
+        "#5a3e77",
+        "#453457",
+        "#302b36"
+      ],
+      "noir": "#1a1223"
+    },
+    "R": {
+      "label": "rouge",
+      "nuances": [
+        "#ffedea",
+        "#ffd2cb",
+        "#ffb5ab",
+        "#ff9689",
+        "#ff7264",
+        "#f35347",
+        "#de3e35",
+        "#c33029",
+        "#a42b24",
+        "#832b24",
+        "#5f2b26",
+        "#3a2926"
+      ],
+      "noir": "#240f0d"
+    },
+    "G": {
+      "label": "gris",
+      "nuances": [
+        "#f2f2f2",
+        "#dedede",
+        "#cacaca",
+        "#b7b7b7",
+        "#a4a4a4",
+        "#929292",
+        "#808080",
+        "#6f6f6f",
+        "#5d5d5d",
+        "#4d4d4d",
+        "#3d3d3d",
+        "#2e2e2e"
+      ]
+    },
+    "K": {
+      "label": "noir",
+      "nuances": [
+        "#111111"
+      ]
+    },
+    "W": {
+      "label": "blanc",
+      "nuances": [
+        "#f4f2ee"
+      ]
+    }
+  }
+}

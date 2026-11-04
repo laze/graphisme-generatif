@@ -70,6 +70,8 @@ Module slots are visited in the inter-module parcours order (§5). For each slot
 
 This is deterministic. The rank and `t` of an échelle-2 module are those of its anchor slot.
 
+> **Implementation decision (v1).** Slots are visited in strict parcours order (rank ascending, ties broken row-major). A consequence worth knowing: with a centre-out inter parcours (`rayonnement`), the inner slots are always occupied before any outer anchor is considered, so the 2×2 block of an outer-ring anchor always overlaps an occupied slot and **no échelle-2 module is ever placed**. Échelle 2 is effective with parcours whose free region stays a contiguous right/down area (`lignes`, `colonnes`, `boustrophedon`, `diagonale`). This follows from §3.2 as written and is kept rather than special-cased.
+
 ### 3.3 Unité and étages
 
 A unité has `etages` layers (param, 1–3, constant for the whole champ in v1).
@@ -91,6 +93,12 @@ The **box** of an étage is the axis-aligned square that its *untransformed* for
 
 The forme of étage k has bbox side `box(k−1) × grandeur / 30`. Transforms (rotation, aspect, cisaillement) are applied around the centre after sizing. Containment under shear or large rotation is not enforced; the validator emits a warning (§9) when an étage's transformed bbox exceeds its parent box by more than 5 %.
 
+> **Implementation decision (v1).**
+> - The box side factor is keyed on the **type code** exactly as the table above states, so `carré` keeps factor 1 and `cercle` keeps 1/√2 even when `aspect < 1` narrows them. Where that over-estimates the box, the 5 % warning is the safety net.
+> - The warning compares the axis-aligned bounding box of the forme after shear and then rotation (`bbox = 2·max(bw, bh)` with `bw = (hw + |s|·hh)·|cos θ| + hh·|sin θ|`, `bh = (hw + |s|·hh)·|sin θ| + hh·|cos θ|`) against the parent box side. It is an approximation, deliberately cheap, because it only drives a diagnostic.
+> - `diagnostics.avertissements` holds **distinct** messages in first-seen order, capped at 32. Messages name the étage, not the cell, so a champ of 100 000 unités produces a short list.
+> - Transform order is **shear first, then rotation**, both about the forme centre.
+
 ### 3.4 The alphabet
 
 | Forme | Code | Canonical geometry (bbox side 1, centred) |
@@ -109,6 +117,8 @@ Transforms per forme:
 - `cisaillement` (horizontal shear) −0.5…0.5.
 
 Progressive continuity between forms is a core property: carré with rotation 0→45 travels to losange geometry; cercle with aspect 1→0.4 travels to an ellipse; rectangle with cisaillement 0→0.3 travels to a parallelogram. These continuous paths are what **progression** uses; jumping between type codes is what **permutation** uses.
+
+> **Implementation decision (v1).** `aspect` scales the **horizontal extent** of every forme type (`width = bbox × aspect`, `height = bbox`), not only rectangle and ellipse, so the continuity above also works for losange and triangle. Default `aspect` is 0.6 for `r` and `e`, 1 for the others; when `forme.aspect` is omitted from the params, the default of the *evaluated* type is recorded. Omitted `rotation` and `cisaillement` record 0.
 
 ---
 
@@ -162,11 +172,15 @@ The runtime never converts colours; it only reads hex values from palette data.
 
 `<gamme letter><nuance>` — e.g. `B7`, `J2`, `RN` (noir coloré of rouge), `K1`, `W1`.
 
+> **Implementation decision (v1).** The nuance axis range is 1–13 for every gamme (§6.1), but a gamme offers only `1…nuances.length`, plus 13 when it defines a `noir`. After clamping to the axis range, a nuance is snapped to the **nearest value the gamme actually offers** (ties to the lower one). So a 1-nuance gamme such as `K` always yields `K1`, and `G13` becomes `G12` because gris has no noir coloré.
+
 ### 4.4 Contrast rule
 
 Adjacent étages (k and k+1) must be distinguishable. If they share a gamme, `|nuance(k) − nuance(k+1)| ≥ contraste.minNuance` (default 3). Noir coloré counts as nuance 13 for this rule.
 
 Resolution when violated (deterministic): move the **inner** étage's nuance away from the outer one in the direction that stays within range, by the minimal amount; if both directions are out of range, switch the inner étage to the next gamme in the palette's key order. The validator counts these corrections (§9).
+
+> **Implementation decision (v1).** "Minimal amount" is made precise as: among the nuances the gamme offers that satisfy `|n − nuance(outer)| ≥ minNuance`, take the one minimising `|n − nuance(inner)|`; ties prefer the side the inner étage is already on (`n ≥ outer` when `inner ≥ outer`, otherwise `n ≤ outer`). If that candidate set is empty, the inner étage switches to the next gamme in `Object.keys(palette.gammes)` order (wrapping) and its nuance is snapped to that gamme's valid set (§4.3). Pairs are processed outward to inward (0↔1, then the corrected 1↔2), so a correction can cascade.
 
 ---
 
@@ -194,6 +208,14 @@ interface Parcours {
 `t = rank / maxRank` (0 if maxRank = 0).
 
 **Symétrie** folds coordinates before ranking: `horizontale` mirrors x around the vertical centre line (`x' = min(x, w−1−x)`), `verticale` mirrors y, `centrale` does both. Folded grids are ranked on the folded size.
+
+> **Implementation decision (v1).**
+> - Ranking is defined by an integer **ordering key** per folded cell; the rank is the index of that key among the distinct keys present, ascending. This gives ties exactly where the table says ties occur, and `maxRank = distinctKeys − 1`.
+> - `rayonnement` measures Chebyshev distance from the geometric centre `((w−1)/2, (h−1)/2)`, computed doubled (`max(|2x−(w−1)|, |2y−(h−1)|)`) to stay integral. On an even side the two central rows/columns share rank 0.
+> - `spirale` starts at `(0,0)`, runs right along the top row, down the right column, left along the bottom, up the left column, then repeats one ring inwards. Every cell gets a distinct rank.
+> - `inverse` reverses the **rank** as well as `t`: `rank' = maxRank − rank`, which makes `t' = 1 − t` automatically and also reverses permutation indices.
+> - The folded size is `ceil(w/2)` and/or `ceil(h/2)`; on an odd side the middle row/column is its own fold target.
+> - `ordre` (the order in which cells draw from a PRNG stream, §7) is the full grid sorted by rank ascending, ties row-major.
 
 ---
 
@@ -263,6 +285,13 @@ Integers are rounded half away from zero after summation. Values are clamped to 
 | permutation | `ensemble[(indexOf(base) + rank × pas) mod len]` for a PRNG-selected share `amplitude` of cells; others keep base |
 | aléatoire | uniform pick from `ensemble` for a PRNG-selected share `amplitude` of cells; others keep base |
 
+> **Implementation decision (v1).**
+> - "A PRNG-selected share `amplitude`" means: each cell draws one value `u` from the axis' stream and is selected when `u < amplitude`.
+> - The number of values a cell draws is **fixed by the mode**, never by the amplitude or by whether the cell was selected: `constant` and `progression` draw 0, `permutation` draws 1 (the selector), numeric `aléatoire` draws 1 (the value), categorical `aléatoire` draws 2 (selector, then pick). Stream positions therefore never shift when an amplitude changes.
+> - A categorical `aléatoire` pick is `ensemble[min(floor(u × len), len − 1)]`.
+> - A non-constant mode with a missing or empty `ensemble` is a validation error on categorical axes and on numeric `permutation`; where it can still occur it is a no-op.
+> - `rampe` returns 1 (not 0) whenever `u > 0` and `u` is a whole number, so `t = 1, periode = 1` reaches the full amplitude.
+
 ### 6.3 Combination of inter and intra
 
 Evaluation per unité, per axis:
@@ -280,6 +309,11 @@ inversion?: { mode: 'constant' | 'progression' | 'permutation' | 'aleatoire'; am
 
 When a cell (or every cell of a module, for `niveau: 'inter'`) is selected, the colours of étage 0 and étage 1 are swapped after evaluation. Selection: `constant` → all cells if amplitude ≥ 0.5, else none; `progression` → cells with `w(t) ≥ 1 − amplitude`; `permutation` → cells with even rank, inverted pattern on odd rank, on a PRNG-selected share `amplitude` of cells; `aleatoire` → PRNG share `amplitude`. Inversion is applied before the contrast rule.
 
+> **Implementation decision (v1).**
+> - `permutation` is read as: a cell is inverted when it falls in the PRNG-selected share **and** its rank is even; odd-rank cells keep the non-inverted pattern. At `amplitude = 1` this is a rank checkerboard, and selection grows monotonically with amplitude.
+> - `amplitude = 0` selects nothing in every mode (this overrides the literal `w(t) ≥ 1` of `progression`).
+> - With fewer than 2 étages there is nothing to swap; the validator rejects such params.
+
 ### 6.5 Échelle rule
 
 ```ts
@@ -291,6 +325,8 @@ echelle: { mode: 'constant' | 'progression' | 'aleatoire'; part: number }   // p
 - `aleatoire`: échelle 2 desired with probability `part` per anchor slot.
 
 Placement then follows §3.2. Échelle never varies within a module.
+
+> **Implementation decision (v1).** Every anchor slot draws exactly one value from the `echelle` stream whatever the mode, so the stream position does not depend on `part` or on the mode. `part = 0` never wants échelle 2. `progression` compares the raw inter `t` (not a wave) against `1 − part`, as written above. See the note in §3.2 for which parcours can actually accommodate échelle 2.
 
 ### 6.6 Radicality as a usage pattern
 
@@ -312,6 +348,20 @@ Example parameter files in `examples/` use these neutral names only.
 - No use of `Math.random`, `Date`, locale-dependent formatting or iteration over unordered collections anywhere in the programmation stage.
 - Floating-point outputs that end up in the programmation are rounded to 4 decimals.
 - Invariant (tested): identical `params` → byte-identical canonical JSON and notation, across Node and browsers.
+
+> **Implementation decision (v1).** Stream paths are fixed strings, joined with `/` after `seed + '|'`:
+>
+> | Decision | Path |
+> |---|---|
+> | échelle placement | `echelle` |
+> | inter axis | `inter / etage<k> / <axis>` |
+> | intra axis | `intra / module:<ax>,<ay> / etage<k> / <axis>` |
+> | inversion, inter | `inversion / inter` |
+> | inversion, intra | `inversion / intra / module:<ax>,<ay>` |
+>
+> `<axis>` is one of `couleur.gamme`, `couleur.nuance`, `forme.type`, `forme.grandeur`, `forme.rotation`, `forme.aspect`, `forme.cisaillement`; `<k>` is the étage index, 0-based.
+>
+> **Intra streams are per module.** A module's unités therefore draw the same values wherever that module sits and whatever the champ around it does, which makes the isolation property hold across changes to the champ size and to the inter parcours as well as across axes. Each stream discards 8 warm-up values after seeding, so neighbouring paths decorrelate immediately.
 
 ---
 
@@ -345,6 +395,13 @@ interface EtageSpec {
 ```
 
 A JSON Schema (`schema/params.schema.json`, draft 2020-12) is exported and kept in sync with the types by a test. Validation is hand-written (zero runtime dependencies) and returns structured errors with JSON paths.
+
+> **Implementation decision (v1).**
+> - `seed` must be a **non-empty** string. The notation's `token` production requires at least one character, so an empty seed could not round-trip.
+> - The schema is built in `src/validate/schema.ts` from the same key lists the validator uses for `additionalProperties`, and type-level assertions make the typecheck fail when a key is added to or removed from an interface. `schema/params.schema.json` is the committed serialisation, regenerated with `npm run schema` and compared byte for byte by a test.
+> - `validate` checks that a gamme letter is a single `A–Z` and, for an inline palette, that it exists. A bundled palette id cannot be resolved by `validate` alone, so `generate` re-checks every reachable gamme letter (`base` and every `ensemble` member) against the resolved palette and throws `ParamsError` if one is unknown.
+> - `contraste.minNuance` is an integer in 0–12; `periode` is in (0, 64]; `pas` is an integer in 1–1024. `sens` on a non-`progression` numeric variation is rejected as a likely mistake.
+> - An `Erreur` is `{ chemin, message, code }`, where `chemin` is a JSON Pointer (`""` for the root) and `code` is a short stable tag (`type`, `plage`, `entier`, `enum`, `requis`, `interdit`, `cle-inconnue`, `longueur`, `gamme`, `gamme-inconnue`, `hex`, `vide`, `inutile`, `version`).
 
 ### Worked example (gentle, 2 étages)
 
@@ -444,6 +501,12 @@ Example cell: `R4>c24:K1>r14x0.5s0.2:J2` — red fond nuance 4, black carré of 
 
 `encode(decode(s)) === s` and `decode(encode(p))` deep-equals `p` minus `diagnostics` (property-tested).
 
+> **Implementation decision (v1).** The notation is a **projection**: the grammar above carries no module membership and no palette data, so the round-trip identity is stated precisely as `decode(encode(p))` deep-equals `p` minus `diagnostics` **and minus `module`**.
+> - Decoded unités carry the sentinel `module: [-1, -1]`, meaning "not recorded".
+> - `encode` throws when `paletteInline` is set, rather than silently dropping it; the header records a palette **id** only.
+> - A seed is percent-encoded over its UTF-8 bytes, escaping every byte outside `[A-Za-z0-9._-]` as `%XX` with uppercase hex.
+> - `aspect` is omitted when it equals the default of its own type code (0.6 for `r`/`e`, 1 otherwise); `@0` and `s0` are omitted.
+
 ---
 
 ## 10. Réalisation (SVG renderer)
@@ -501,6 +564,8 @@ graphisme-generatif validate <params.json>
 
 - Node ≥ 20, TypeScript strict, ESM only, `"sideEffects": false`.
 - **Zero runtime dependencies.** Dev: `typescript`, `vitest`, `tsup`, `@biomejs/biome`, `fast-check`.
+
+> **Implementation decision (v1).** `@types/node` is added to the dev dependencies: it ships only type declarations, so it does not widen the runtime or tooling surface, and the CLI and build scripts cannot typecheck without it. TypeScript-authored scripts (`scripts/*.ts`) are run through `scripts/run-ts.js`, which bundles them with the already-present `tsup` into `.tmp/` and executes the result, rather than adding a TS runner dependency.
 - Layout:
 
 ```
