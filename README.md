@@ -29,6 +29,12 @@ graphisme-generatif render out.txt --out again.svg --taille 32
 graphisme-generatif validate examples/radical.json
 ```
 
+## Playground
+
+`npm run playground` builds the bundle and serves a single static page at
+<http://localhost:5173/playground/>: edit the params on the left with live validation, step or
+randomise the seed, and download the SVG, the canonical JSON or the notation.
+
 ## Independence statement
 
 This is an independent research experiment. It is **not affiliated with, endorsed by or approved by** the Fondation Vasarely (Aix-en-Provence), the Michèle Vasarely Foundation, the heirs of Victor Vasarely, or ADAGP.

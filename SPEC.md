@@ -599,6 +599,7 @@ src/
 schema/       params.schema.json
 scripts/      build-palette.ts
 examples/     constant.json, glissement.json, module.json, radical.json, out/ (generated SVGs, committed)
+playground/   index.html
 test/
 ```
 
@@ -618,6 +619,10 @@ test/
 > - Every example is a 4×4 champ of 4×4-unité modules (16×16 base units), large enough to show the parcours and small enough to keep the committed snapshots readable.
 > - `scripts/examples.ts` builds an example's three outputs; `scripts/build-examples.ts` writes them and the golden test compares against them, so the writer and the checker cannot drift apart.
 > - `scripts/bench.ts` holds the params of the performance target and prints the two measured times.
+> - `playground/index.html` is a single static page: one inline `<style>`, one inline `<script type="module">`, no framework, no external asset, no runtime dependency. It imports the built bundle from `../dist/index.js`, so `npm run playground` builds first and then serves the repository root over HTTP (`scripts/serve-playground.js`, zero dependencies, development only).
+> - The playground's seed field works like the CLI's `--seed`: it overrides the params rather than rewriting the editor text, and it is re-synced from the text whenever the params' own `seed` value changes.
+> - Previous/next step the seed's trailing integer, keeping its width and never going below 0; a seed without a trailing integer gains a `-0` / `-1` suffix. Random draws 6 bytes from `crypto.getRandomValues` and writes them as hex. The page is the only place where non-reproducible randomness is allowed, and it never reaches `src/`.
+> - The editor starts from `examples/glissement.json`, falling back to an inline params object when the fetch fails. Validation errors are shown live; the last valid render stays on screen so a half-typed edit does not blank the preview.
 
 ---
 

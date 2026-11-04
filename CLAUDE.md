@@ -26,3 +26,5 @@ SPEC.md is the source of truth. Read it fully before changing code. If an implem
 - `npm run typecheck` — tsc --noEmit
 - `npm run palette` — regenerate `src/palette/alphabet-6x12.json`
 - `npm run examples` — regenerate `examples/out/*`
+- `npm run bench` — performance target of SPEC §12
+- `npm run playground` — build, then serve `playground/index.html` locally
