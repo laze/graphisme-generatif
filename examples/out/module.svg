@@ -1,0 +1,1283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="384" height="384" preserveAspectRatio="xMidYMid slice">
+<rect x="0" y="0" width="16" height="16" fill="#111111" shape-rendering="crispEdges"/>
+<g transform="translate(0,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(1,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)"/>
+<circle cx="0.5" cy="0.5" r="0.1035" fill="#de3e35"/>
+</g>
+<g transform="translate(2,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(3,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(4,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(5,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(6,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(7,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(8,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(13,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(14,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(15,0)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(0,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(1,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(2,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(3,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(4,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(5,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(6,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(7,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(8,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(13,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(14,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(15,1)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(0,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(1,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(2,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(3,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(4,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(5,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(6,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(7,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(8,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(13,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(14,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(15,2)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(0,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(1,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(2,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(3,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#008455" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(4,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(5,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(6,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(7,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(8,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(13,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(14,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(15,3)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(0,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(1,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(2,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(3,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(4,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(6,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(8,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(9,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(10,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(11,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(12,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(13,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(14,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(15,4)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(0,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(1,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(2,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(3,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(4,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(6,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(8,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(9,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(10,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(11,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(12,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(13,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(14,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(15,5)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(0,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(1,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(2,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(3,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(4,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(6,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(8,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(9,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(10,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(11,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(12,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(13,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(14,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(15,6)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(0,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(1,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(2,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(3,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#155b3d" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(4,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(6,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(8,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(9,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(10,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(11,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(12,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(13,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(14,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(15,7)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(0,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(1,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(2,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(3,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(4,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(5,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(6,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(7,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(8,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(13,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(14,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(15,8)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(0,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(1,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(2,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(3,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(4,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)"/>
+<circle cx="0.5" cy="0.5" r="0.1617" fill="#de3e35"/>
+</g>
+<g transform="translate(5,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(6,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(7,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(8,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(13,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(14,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(15,9)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(0,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(1,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(2,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(3,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(4,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(5,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(6,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(7,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(8,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(11,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(13,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(14,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(15,10)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(0,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(1,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(2,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(3,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#2a3c63" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(4,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(5,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(6,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(7,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(8,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(9,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(10,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(11,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(12,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(13,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(14,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(15,11)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(0,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(1,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(2,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(3,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(4,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(6,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(8,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(9,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(10,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(11,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(12,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(13,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9998,0.0209,-0.0209,0.9998,0.0106,-0.0104)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(14,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#dfca7a" transform="matrix(0.9991,0.0419,-0.0419,0.9991,0.0214,-0.0205)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(15,12)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.998,0.0628,-0.0628,0.998,0.0324,-0.0304)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(0,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(1,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(2,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(3,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(4,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(6,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(8,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(9,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(10,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(11,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(12,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9893,0.1461,-0.1461,0.9893,0.0784,-0.0677)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(13,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9921,0.1253,-0.1253,0.9921,0.0666,-0.0587)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(14,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9945,0.1045,-0.1045,0.9945,0.055,-0.0495)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(15,13)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#d2b643" transform="matrix(0.9965,0.0837,-0.0837,0.9965,0.0436,-0.0401)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(0,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(1,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(2,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(3,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(4,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(5,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(6,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(7,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(8,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(9,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(10,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(11,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)"/>
+<circle cx="0.5" cy="0.5" r="0.1164" fill="#de3e35"/>
+</g>
+<g transform="translate(12,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.986,0.1668,-0.1668,0.986,0.0904,-0.0764)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(13,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9823,0.1874,-0.1874,0.9823,0.1025,-0.0848)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(14,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#c2a200" transform="matrix(0.9781,0.2079,-0.2079,0.9781,0.1149,-0.093)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(15,14)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9736,0.2284,-0.2284,0.9736,0.1274,-0.101)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(0,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(1,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(2,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(3,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#0e1626" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.3233" fill="#de3e35"/>
+</g>
+<g transform="translate(4,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(5,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(6,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<polygon points="0.5,0.112 0.888,0.5 0.5,0.888 0.112,0.5" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)"/>
+<circle cx="0.5" cy="0.5" r="0.1487" fill="#de3e35"/>
+</g>
+<g transform="translate(7,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#453457" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2975" fill="#de3e35"/>
+</g>
+<g transform="translate(8,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(9,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(10,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(11,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#5a3e77" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2328" fill="#de3e35"/>
+</g>
+<g transform="translate(12,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#977e00" transform="matrix(0.9511,0.309,-0.309,0.9511,0.179,-0.13)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(13,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9573,0.289,-0.289,0.9573,0.1659,-0.1232)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(14,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9632,0.2689,-0.2689,0.9632,0.1529,-0.116)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+<g transform="translate(15,15)">
+<rect x="0.015" y="0.015" width="0.97" height="0.97" fill="#8354b2" shape-rendering="crispEdges"/>
+<rect x="0.112" y="0.112" width="0.776" height="0.776" fill="#ac9000" transform="matrix(0.9686,0.2487,-0.2487,0.9686,0.1401,-0.1086)" shape-rendering="crispEdges"/>
+<circle cx="0.5" cy="0.5" r="0.2069" fill="#de3e35"/>
+</g>
+</svg>

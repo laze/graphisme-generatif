@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "seed": "module-01",
+  "palette": "alphabet-6x12",
+  "champ": { "modulesX": 4, "modulesY": 4 },
+  "module": { "colonnes": 4, "rangees": 4 },
+  "parcours": {
+    "inter": { "type": "diagonale" },
+    "intra": { "type": "boustrophedon" }
+  },
+  "unite": { "etages": 3, "joint": 0.03 },
+  "contraste": { "minNuance": 4 },
+  "etages": [
+    {
+      "couleur": {
+        "gamme": {
+          "base": "V",
+          "inter": { "mode": "progression", "amplitude": 0.8, "ensemble": ["V", "B", "M"] }
+        },
+        "nuance": {
+          "base": 8,
+          "inter": { "mode": "progression", "amplitude": 0.4, "onde": "triangle" }
+        }
+      }
+    },
+    {
+      "couleur": {
+        "gamme": { "base": "J" },
+        "nuance": { "base": 3, "intra": { "mode": "progression", "amplitude": 0.3 } }
+      },
+      "forme": {
+        "type": {
+          "base": "c",
+          "intra": { "mode": "permutation", "amplitude": 0.25, "ensemble": ["c", "l"] }
+        },
+        "grandeur": { "base": 24 },
+        "rotation": { "base": 0, "intra": { "mode": "progression", "amplitude": 0.05 } }
+      }
+    },
+    {
+      "couleur": {
+        "gamme": { "base": "R" },
+        "nuance": { "base": 7 }
+      },
+      "forme": {
+        "type": { "base": "o" },
+        "grandeur": {
+          "base": 16,
+          "inter": { "mode": "progression", "amplitude": 0.3, "onde": "sinus" }
+        }
+      }
+    }
+  ]
+}

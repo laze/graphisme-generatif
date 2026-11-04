@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "seed": "glissement-01",
+  "palette": "alphabet-6x12",
+  "champ": { "modulesX": 4, "modulesY": 4 },
+  "module": { "colonnes": 4, "rangees": 4 },
+  "parcours": {
+    "inter": { "type": "rayonnement" },
+    "intra": { "type": "lignes" }
+  },
+  "unite": { "etages": 2 },
+  "etages": [
+    {
+      "couleur": {
+        "gamme": { "base": "B" },
+        "nuance": { "base": 3, "inter": { "mode": "progression", "amplitude": 0.45 } }
+      }
+    },
+    {
+      "couleur": {
+        "gamme": { "base": "B" },
+        "nuance": {
+          "base": 10,
+          "intra": { "mode": "progression", "amplitude": 0.12, "onde": "triangle" }
+        }
+      },
+      "forme": {
+        "type": { "base": "c" },
+        "grandeur": { "base": 21 },
+        "rotation": { "base": 0, "inter": { "mode": "progression", "amplitude": 0.125 } },
+        "aspect": {
+          "base": 1,
+          "intra": { "mode": "progression", "amplitude": 0.2, "sens": -1 }
+        }
+      }
+    }
+  ]
+}

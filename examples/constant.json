@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "seed": "constant-01",
+  "palette": "alphabet-6x12",
+  "champ": { "modulesX": 4, "modulesY": 4 },
+  "module": { "colonnes": 4, "rangees": 4 },
+  "parcours": {
+    "inter": { "type": "lignes" },
+    "intra": { "type": "lignes" }
+  },
+  "unite": { "etages": 2, "joint": 0.04 },
+  "etages": [
+    {
+      "couleur": {
+        "gamme": { "base": "B" },
+        "nuance": { "base": 9 }
+      }
+    },
+    {
+      "couleur": {
+        "gamme": { "base": "J" },
+        "nuance": { "base": 4 }
+      },
+      "forme": {
+        "type": { "base": "c" },
+        "grandeur": { "base": 20 }
+      }
+    }
+  ]
+}

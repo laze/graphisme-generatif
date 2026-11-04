@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "seed": "radical-01",
+  "palette": "alphabet-6x12",
+  "champ": { "modulesX": 4, "modulesY": 4 },
+  "module": { "colonnes": 4, "rangees": 4 },
+  "echelle": { "mode": "progression", "part": 0.35 },
+  "parcours": {
+    "inter": { "type": "boustrophedon" },
+    "intra": { "type": "spirale" }
+  },
+  "unite": { "etages": 3, "joint": 0.05 },
+  "inversion": { "mode": "permutation", "amplitude": 0.5, "niveau": "intra" },
+  "contraste": { "minNuance": 3 },
+  "etages": [
+    {
+      "couleur": {
+        "gamme": {
+          "base": "B",
+          "inter": {
+            "mode": "permutation",
+            "amplitude": 0.7,
+            "ensemble": ["B", "R", "J", "V", "M"],
+            "pas": 2
+          }
+        },
+        "nuance": { "base": 6, "intra": { "mode": "aleatoire", "amplitude": 0.35 } }
+      }
+    },
+    {
+      "couleur": {
+        "gamme": { "base": "W" },
+        "nuance": { "base": 1 }
+      },
+      "forme": {
+        "type": {
+          "base": "c",
+          "intra": {
+            "mode": "aleatoire",
+            "amplitude": 0.8,
+            "ensemble": ["c", "o", "l", "t", "r", "e"]
+          }
+        },
+        "grandeur": { "base": 23, "inter": { "mode": "aleatoire", "amplitude": 0.25 } },
+        "rotation": { "base": 0, "intra": { "mode": "aleatoire", "amplitude": 0.3 } },
+        "cisaillement": { "base": 0, "intra": { "mode": "aleatoire", "amplitude": 0.4 } }
+      }
+    },
+    {
+      "couleur": {
+        "gamme": { "base": "K" },
+        "nuance": { "base": 1 }
+      },
+      "forme": {
+        "type": {
+          "base": "o",
+          "intra": { "mode": "permutation", "amplitude": 0.6, "ensemble": ["o", "l", "t"] }
+        },
+        "grandeur": { "base": 15 },
+        "aspect": { "base": 1, "intra": { "mode": "aleatoire", "amplitude": 0.4 } }
+      }
+    }
+  ]
+}

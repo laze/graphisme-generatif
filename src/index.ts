@@ -22,6 +22,8 @@ export { validate, ParamsError, getPalette, palettes };
 export { encode } from './notation/encode.js';
 export { decode } from './notation/decode.js';
 export { paramsSchema } from './validate/schema.js';
+export { renderSVG } from './render/svg.js';
+export type { RenderOptions } from './render/svg.js';
 
 export type {
   Axis,

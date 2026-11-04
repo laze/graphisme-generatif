@@ -2,7 +2,7 @@
 
 Generative graphics based on Victor Vasarely's *programmation* principles: recursive *unités plastiques* (fond + noyau), colour *gammes* and *nuances*, permutation and progression rules. A deterministic, seed-driven TypeScript core outputs a letter–number *programmation*, rendered to SVG.
 
-> **Status:** specification stage. See [SPEC.md](SPEC.md).
+> **Status:** core, notation, validator, renderer and CLI implemented. See [SPEC.md](SPEC.md) for the full specification and [examples/](examples) for ready-made parameter files and their output.
 
 ## How it works
 
@@ -19,6 +19,14 @@ import { generate, renderSVG, getPalette, encode } from 'graphisme-generatif';
 const p = generate(params);
 const svg = renderSVG(p, getPalette('alphabet-6x12'));
 const code = encode(p);
+```
+
+From the command line:
+
+```
+graphisme-generatif generate examples/glissement.json --out out.svg --notation out.txt
+graphisme-generatif render out.txt --out again.svg --taille 32
+graphisme-generatif validate examples/radical.json
 ```
 
 ## Independence statement

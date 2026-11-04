@@ -478,6 +478,8 @@ interface FormePlacee {
 
 Canonical serialisation: keys in the declared order, no insignificant whitespace (a pretty-printed variant is allowed for files).
 
+> **Implementation decision (v1).** Files are written in the compact canonical form, never pretty-printed, with a single trailing newline, so a golden snapshot can be compared byte for byte. `JSON.stringify` is enough: every object is built in the declared key order.
+
 ### 9.2 Text notation
 
 A compact, human-readable code in the spirit of the historical letter–number sheets. Grammar (EBNF):
@@ -528,6 +530,16 @@ renderSVG(p: Programmation, palette: Palette, opts?: {
 - Output is deterministic text (fixed attribute order, numbers formatted to ≤ 4 decimals).
 - Optional size optimisation: identical consecutive fill colours share a `<g fill>` wrapper (must not change output geometry).
 
+> **Implementation decision (v1).**
+> - The programmation does not carry `joint`, so the renderer uses `opts.joint ?? 0`. The CLI passes `params.unite.joint` when it renders what it has just generated; `render`, which starts from a programmation, has no joint source and therefore renders with no gap.
+> - The joint gap is painted by one champ-sized `<rect>` in `fondJoint` emitted before the unités, always, even at `joint = 0`, so the element sequence does not depend on the joint. `fondJoint` defaults to `K1` and must exist in the palette.
+> - Type codes map to elements as: `c`/`r` → `<rect>`, `l`/`t` → `<polygon>`, `o`/`e` → `<circle>` when the two radii are equal and `<ellipse>` otherwise.
+> - The transform is a single `matrix(a,b,c,d,e,f)` equal to `T(centre) · R(rotation) · S(cisaillement) · T(−centre)`, and is omitted when `cisaillement = 0` and `rotation mod 360 = 0`.
+> - Attribute order is fixed: `<svg xmlns viewBox width height preserveAspectRatio>`, `<rect x y width height fill [transform] shape-rendering>`, `<circle cx cy r fill [transform]>`, `<ellipse cx cy rx ry fill [transform]>`, `<polygon points fill [transform]>`. One element per line, `\n` endings, trailing newline.
+> - `<title>` is emitted only when `titre` is given; `&`, `<` and `>` are escaped.
+> - A colour code the palette cannot serve throws rather than falling back to a default.
+> - The optional `<g fill>` grouping is **not** implemented in v1: it is explicitly optional, and keeping one element per unité étage makes the output contract easier to read and diff.
+
 A canvas renderer and animated progression playback are out of scope for v1.
 
 ### Web background usage
@@ -557,6 +569,13 @@ graphisme-generatif generate <params.json> [--seed <s>] [--out <file.svg>] [--js
 graphisme-generatif render <programmation.json|.txt> [--out <file.svg>] [--taille <px>]
 graphisme-generatif validate <params.json>
 ```
+
+> **Implementation decision (v1).**
+> - `--seed` replaces `seed` in the params before validation, so an invalid seed is still reported with the path `/seed`.
+> - `generate` with none of `--out`, `--json`, `--notation` writes the canonical JSON to stdout. With at least one of them it writes only the requested files and sends `diagnostics.avertissements` to stderr, one `warning: …` line each.
+> - `generate --notation` fails when the params carry an inline palette, because the notation records a palette id only (§9.2).
+> - `render` reads a `.txt` input as notation and any other input as canonical JSON; with no `--out` it writes the SVG to stdout.
+> - Exit code 0 on success, 1 on any error (usage, I/O, validation). Validation errors print one per line as `<chemin>: <message> [<code>]`. `--help` prints the usage and exits 0; no command at all prints it and exits 1.
 
 ---
 
@@ -594,6 +613,11 @@ test/
   - schema/type sync.
 - Performance target: 64×64 modules of 5×5 unités (102 400 unités, 3 étages) generates in < 1 s and renders in < 2 s on a current laptop.
 - CI: GitHub Actions, Node 20 and 22, lint + typecheck + test.
+
+> **Implementation decision (v1).**
+> - Every example is a 4×4 champ of 4×4-unité modules (16×16 base units), large enough to show the parcours and small enough to keep the committed snapshots readable.
+> - `scripts/examples.ts` builds an example's three outputs; `scripts/build-examples.ts` writes them and the golden test compares against them, so the writer and the checker cannot drift apart.
+> - `scripts/bench.ts` holds the params of the performance target and prints the two measured times.
 
 ---
 
